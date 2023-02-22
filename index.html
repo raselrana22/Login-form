@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Log In Form</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <form action="action_page.js" method="post">
+      <div class="imageCointainer">
+        <img src="./Photos/aveter1.png" alt="Avatar" class="avatar" />
+      </div>
+      <div class="container">
+        <label for="uname"><b>Username</b></label>
+        <input
+          type="text"
+          class="usernameinput"
+          name="uname"
+          placeholder="Enter Username"
+          required
+        />
+
+        <label for="password"> <b>Password</b></label>
+        <input
+          type="password"
+          name="password"
+          placeholder="Enter Password"
+          required
+        />
+
+        <button type="submit">submit</button>
+        <label>
+          <input type="checkbox" name="remember" checked="checked" /> Remember
+          me
+        </label>
+      </div>
+
+      <div>
+        <button type="button" class="celcelbtn">Cancel</button>
+        <span class="psw">Forgot <a href="#">Password?</a></span>
+      </div>
+    </form>
+    <!-- The script file attached here-->
+    <script src="main.js"></script>
+  </body>
+</html>
